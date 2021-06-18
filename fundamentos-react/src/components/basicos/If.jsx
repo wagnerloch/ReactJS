@@ -1,5 +1,5 @@
 export default function (props) {
-    if(props.test) {
+    if(props.teste) {
         return props.children
     } else {
         return false
