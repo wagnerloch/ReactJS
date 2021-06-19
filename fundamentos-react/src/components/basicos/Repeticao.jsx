@@ -1,7 +1,7 @@
 import React from 'react'
 import produtos from '../../data/produtos'
 
-export default props => {
+const Repeticao = props => {
 
     function getProdutosListItem() {
         return produtos.map(prod => {
@@ -20,3 +20,5 @@ export default props => {
         </div>
     )
 }
+
+export default Repeticao

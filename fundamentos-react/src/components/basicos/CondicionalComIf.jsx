@@ -1,7 +1,7 @@
 import React from 'react'
 import If from './If'
 
-export default props => {
+const CondicionalComIf = props => {
     return (
         <div>
             <h2>O numéro {props.numero} é</h2>
@@ -15,3 +15,5 @@ export default props => {
         </div>
     )
 }
+
+export default CondicionalComIf
